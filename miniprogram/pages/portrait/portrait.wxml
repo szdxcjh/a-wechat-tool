@@ -1,0 +1,20 @@
+
+  <view class='uploader-img  flex justify-content-start' wx:if="{{pics}}">
+    <view class = 'outblock'>
+      <block class='uploader-list' wx:for="{{pics}}" wx:key="item.length">
+        <!-- <view class='upAdd' bindtap='addImg'>
+            <image class='addbutton' src='/images/add.jpg'mode="scaleToFill" bindtap='addImg'></image>
+        </view> -->
+        <image class='imageicon' src='{{item}}' data-index="{{index}}" mode="scaleToFill" bindtap='previewImg1'>
+        </image>
+          <!-- <image class='delete' data-index="{{index}}" src='images/delect.png' mode="widthFix" bindtap='deleteImg'/> -->
+      </block>
+      <image class='addbutton' src='/images/add.jpg' mode="scaleToFill" bindtap='addImg' wx:if="{{flag == 1}}"></image>
+    </view>
+    <view class='viewblock'>
+  <view class = "Uploadlife">
+    <image class='uploadphotos' src='/images/upload.png'></image>
+    <view class='up_btn' hover-class="up_btn_click" bindtap="uploadClick">确定生成并保存</view>
+  </view>
+</view>
+  </view>

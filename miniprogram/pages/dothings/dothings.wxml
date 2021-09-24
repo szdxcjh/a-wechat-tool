@@ -1,0 +1,13 @@
+  <view class="dowhatblock">
+    <image class="domuch" src='/images/todowhat.gif' mode='aspectFit' >
+    </image>
+    <view class="inputbox">
+      <text class="textbehind">记录事件</text>
+      <input class="inputit" value="{{inputValue}}"  placeholder="今天整点什么？" bindconfirm='record' bindclear="clearInput">
+      </input>
+    </view>
+    <view class="torchdel {{item.isTouchMove ? 'touch-move-active' : ''}}"  data-index="{{index}}" bindtouchstart="touchstart" bindtouchmove="touchmove" wx:for="{{todoitems}}" wx:key="">
+      <view class="content">{{item.content}}</view>
+      <view class="del" catchtap="del" data-index="{{index}}">删除</view>
+    </view>
+  </view>

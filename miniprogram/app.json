@@ -1,0 +1,54 @@
+{
+  "cloud":true,
+  "requiredBackgroundModes":["audio"],
+  "pages": [
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/im/im",
+    "pages/im/room/room",
+    "pages/logs/logs",
+    "pages/timer/timer",
+    "pages/dothings/dothings",
+    "pages/uploadlife/uploadlife",
+    "pages/photowall/photowall",
+    "pages/portrait/portrait",
+    "pages/news/news",
+    "pages/xuni/xuni"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#f10b2e",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/images/首页1.png",
+        "selectedIconPath": "/images/首页.png"
+      },
+      {
+        "pagePath": "pages/xuni/xuni",
+        "text": "虚拟聊天室",
+        "iconPath": "/images/xuni.png",
+        "selectedIconPath": "/images/xuni1.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

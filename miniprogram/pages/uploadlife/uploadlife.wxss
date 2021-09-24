@@ -1,0 +1,62 @@
+page{
+  background: white;
+}
+.uploader-img{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.outblock{
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+  margin-bottom: 5%;
+  margin-left: 3%;
+  margin-right: 3%; 
+}
+.imageicon{
+  width: 182rpx;
+  height: 182rpx;
+  margin: 23rpx;
+}
+.viewblock{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.addbutton{
+  width: 182rpx;
+  height: 182rpx;
+  margin: 23rpx;
+}
+
+.Uploadlife {
+  top: 0%;
+  right: 11%;
+  bottom: 10%;
+  position: absolute;
+  margin: 10px auto;
+  width: 580rpx;
+  height: 100rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: #2ee709dc;
+  opacity: 0.6;
+  border: 1px solid#d0d0d0;
+  border-radius: 20rpx;
+  font-size: 14px;
+}
+.uploadphotos{
+  width: 50rpx;
+  height: 50rpx;
+}
+.up_btn_click {
+  color: white;
+  background: #2ee709dc;
+}

@@ -1,0 +1,9 @@
+<view class="block">
+  <view class="recommand">
+    <image class='rec_arr' src='/images/photowallimg.png'></image>
+    <view class='rec_text'>最新精选</view>
+</view>
+  <block class ='outblock' wx:for="{{photos}}" wx:for-item="item">
+      <image class ='imgicon' src="{{item.fileID}}" mode="aspectFill" bindtap="previewImg1" bindlongpress="deleteImage" data-index="{{index}}" ></image>
+  </block> 
+</view>

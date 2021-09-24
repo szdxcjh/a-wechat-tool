@@ -1,0 +1,99 @@
+page{
+  background: white;
+  height: 100%;
+  width: 100%;
+}
+.dowhatblock{
+  position: relative;
+  top: 13%;
+  width: 100%;
+}
+.domuch{
+  width: 250rpx;
+  height: 250rpx;
+  position: relative;
+  left: 32%;
+  /**
+  margin-top:100rpx;
+  display: flex;
+  justify-content: center;
+  **/
+}
+.inputbox {
+  display: flex;
+  height: 40px;
+  margin: 20px;
+  border: 3rpx solid #51bff1;
+  border-radius: 10rpx;
+}
+
+.textbehind {
+  position: absolute;
+  font-size: 12px;
+  background: white;
+  margin: -10px 0 0 10px;
+  padding: 0 5px;
+  color: rgb(144, 147, 167);
+}
+
+.inputit {
+  width: 260px;
+  left: 0%;
+  right: 0%;
+  margin:  auto 5px;
+  padding: 0%;
+}
+
+.torchdel {
+  font-size: 14px; 
+  display: flex;
+  justify-content: space-between;
+  border-bottom:1px solid #ccc;
+  width: 100%;
+  overflow: hidden
+  }
+
+.content {
+    width: 100%;
+    padding: 10px;
+    line-height: 22px;
+    margin-right:0;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    -webkit-transform: translateX(90px);
+    transform: translateX(90px);
+    margin-left: -90px
+  }
+.del {
+  background-color: orangered;
+  width: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  justify-content: center;
+  color: #fff;
+  -webkit-transform: translateX(90px); 
+  transform: translateX(90px);
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  }
+.touch-move-active .content,
+.touch-move-active .del {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+.uploader {
+  height: auto;
+  padding: 0 0 0 40rpx;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.uploader-text {
+  width: 100%;
+  line-height: 52px;
+  font-size: 34rpx;
+  color: #007aff;
+}
+

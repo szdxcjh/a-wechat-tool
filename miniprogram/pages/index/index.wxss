@@ -1,0 +1,357 @@
+/**index.wxss**/
+
+page {
+  background: white;
+  
+}
+
+.userinfo, .uploader, .tunnel {
+  margin-top: 40rpx;
+  height: 140rpx;
+  width: 100%;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-left: none;
+  border-right: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transition: all 300ms ease;
+}
+
+
+.userinfo-avatar {
+  width: 100rpx;
+  height: 100rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+  background-size: cover;
+  background-color: white;
+}
+
+.userinfo-block-avatar {
+  width: 100rpx;
+  height: 100rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.userinfo-avatar[size] {
+  width: 100rpx;
+}
+
+
+.userinfo-avatar:after {
+  border: none;
+}
+
+.userinfo-nickname {
+  font-size: 32rpx;
+  color: #007aff;
+  background-color: white;
+  background-size: cover;
+  text-align: left;
+  padding-left: 0;
+  margin-left: 10px;
+}
+
+.userinfo-nickname::after {
+  border: none;
+}
+
+.userinfo-nickname-wrapper {
+  flex: 1;
+}
+
+.uploader, .tunnel {
+  height: auto;
+  padding: 0 0 0 40rpx;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.uploader-text, .tunnel-text {
+  width: 100%;
+  line-height: 52px;
+  font-size: 34rpx;
+  color: #007aff;
+}
+
+.uploader-container {
+  width: 100%;
+  height: 400rpx;
+  padding: 20rpx 20rpx 20rpx 0;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.uploader-image {
+  width: 100%;
+  height: 360rpx;
+}
+
+.tunnel {
+  padding: 0 0 0 40rpx;
+}
+
+.tunnel-text {
+  position: relative;
+  color: #222;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.tunnel-text:first-child {
+  border-top: none;
+}
+
+.tunnel-switch {
+  position: absolute;
+  right: 20rpx;
+  top: -2rpx;
+}
+
+.disable {
+  color: #888;
+}
+
+.service {
+  position: fixed;
+  right: 40rpx;
+  bottom: 40rpx;
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 50%;
+  background: linear-gradient(#007aff, #0063ce);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  transition: all 300ms ease;
+}
+
+.service-button {
+  position: absolute;
+  top: 40rpx;
+}
+
+.service:active {
+  box-shadow: none;
+}
+
+.request-text {
+  padding: 20rpx 0;
+  font-size: 24rpx;
+  line-height: 36rpx;
+  word-break: break-all;
+}
+/**index.wxss
+样式表文件
+**/
+.swiper,.img {
+  width: 100%;
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.container {
+  padding: 0rpx;
+}
+
+/**view class='bx_btn' hover-class="bx_btn_click"
+view class指示原来的按钮
+hover-class指示按下后的按钮
+ opacity设置不透明度
+ margin设置边缘
+**/
+
+.Focus {
+  height: -50rpx;
+  color:white;
+}
+
+.btn1,.btn2,.btn3{
+  padding-left: 0rpx;
+  padding-right: 0rpx;
+  width: 200rpx;
+  height: 200rpx;
+  background-color: white;
+  color: #999999;
+  border-radius: 0rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 30rpx;
+}
+.clockImg{
+  position: relative;
+  width: 130rpx;
+  height: 120rpx;
+}
+.newsimage{
+  position: relative;
+  width: 100rpx;
+  height: 100rpx;
+}
+.portraitimage{
+  position: relative;
+  width: 100rpx;
+  height: 100rpx;
+}
+.bx_btn{
+  font-size: medium;
+}
+
+/**
+.bx_btn_click {
+  color: white;
+  background: #e02a2ac0;
+}
+**/
+.Dowhat {
+  height: -50rpx;
+  color:white;
+}
+
+.doimage{
+  width: 120rpx;
+  height: 120rpx;
+}
+.do_btn{
+  font-size: medium;
+}
+.Uploadlife {
+  height: -50rpx;
+  color:white;
+}
+.uploadphotos{
+  width: 120rpx;
+  height: 120rpx;
+}
+.show_uploadphotos{
+  width: 120rpx;
+  height: 100rpx;
+}
+.up_btn,.show_up_btn{
+  font-size: medium;
+}
+.firstblock,.secondblock{
+  display:flex;
+  justify-content:space-around;
+}
+.rec_arr{
+  width: 55rpx;
+  height: 55rpx;
+  display:flex;
+  justify-content:flex-start;
+  padding: 3rpx;
+}
+.rec_text{
+  font-size: medium;
+  font-weight:bold;
+  font-family: '宋体';
+  padding-left: 5rpx;
+  color: #554b4bce;
+}
+.scroll_box{
+  height:100%;
+}
+.recommand{
+  display:flex;
+  justify-content:flex-start;
+  align-items: center;
+  padding-bottom: 10rpx;
+}
+.imga{
+  width: 200rpx; 
+  height: 200rpx;
+  border-radius: 15rpx;
+  
+}
+.recomitem{
+  display: flex; 
+
+}
+.scrollrecom{
+  color: transparent;
+}
+.scrollview{
+  height: 100%;
+  width: 100%;
+}
+.recomtext{
+  width: 200rpx;
+  height: 100rpx;
+  font-size: small;
+  display: block;
+  white-space: pre-line;
+  word-break:hyphenate;
+  color: #999999;
+}
+.imgblo{
+  padding-right: 15rpx;
+  padding-left: 15rpx;
+}
+.bottomblock{
+  justify-content: space-between;
+  display: flex;
+  padding-left:20rpx ;
+  padding-right: 20rpx;
+  flex-direction:row;
+}
+.bottomblock1{
+  justify-content: space-between;
+  display: flex;
+  padding-left:120rpx ;
+  padding-right: 120rpx;
+  flex-direction:row;
+}
+.jindutiao,.bottom{
+  width: 85rpx;
+  height: 85rpx;
+  justify-content:center;
+}
+.bottom1{
+  width: 85rpx;
+  height: 85rpx;
+  justify-content:flex-start;
+}
+.bottom2{
+  width: 85rpx;
+  height: 85rpx;
+  justify-content:flex-start;
+}
+.bar{
+  width: 600rpx;
+}
+.percent-num{
+  font-size: small;
+  align-items: center;
+  display: flex;
+  color: #999999;
+}
+

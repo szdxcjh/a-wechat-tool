@@ -1,0 +1,14 @@
+<view class='container'>
+  <view class="block">
+    <text class="temp">计时中</text>
+    <view class="timeblock">
+    <text class="minnum" space="nbsp">{{timenum.min}}</text>
+    <text class="flag">:</text>
+    <text class="secnum" space="nbsp">{{timenum.sec}}</text>
+    </view>
+  </view>
+  <view class="rollblock">
+    <image class='roll'  src='/images/roll.gif'mode="heightFix"></image>
+  </view>
+  <image class='weather-bg'  src='/images/clock_background_.jpg'mode="heightFix"></image>
+</view>

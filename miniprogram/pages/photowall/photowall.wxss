@@ -1,0 +1,49 @@
+page{
+  background: white;
+  height: 100%;
+  width: 100%;
+}
+page{
+  width: 100%;
+}
+.block{
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+  margin-bottom: 5%;
+  margin-left: 3%;
+  margin-right: 3%; 
+}
+.outblock{
+  display:flex;
+  justify-content:space-around;
+}
+.imgicon{
+  width: 160rpx;
+  height:160rpx;
+  margin: 30rpx;
+  border-radius: 15rpx;
+  padding-left: 0rpx;
+  padding-right: 10rpx;
+}
+.rec_arr{
+  width: 55rpx;
+  height: 55rpx;
+  display:flex;
+  justify-content:flex-start;
+  padding: 3rpx;
+}
+.recommand{
+  display:flex;
+  justify-content:flex-start;
+  padding-bottom: 10rpx;
+}
+.rec_text{
+  font-size: medium;
+  font-weight:bold;
+  align-items:center;
+  display: flex;
+  font-family: '宋体';
+  padding-left: 5rpx;
+}
